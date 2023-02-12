@@ -20,7 +20,7 @@ h3{
     font-weight: 500;
 }
 
-li{
+.FavoriteMovies{
 font-weight: 300;
 border: 1px dashed red;
 border-radius: 15px;
@@ -28,7 +28,7 @@ padding: 10px;
 list-style: upper-roman;
 }
 
-ol{
+.ThingsLearned{
 border: 1px solid red;
 border-radius: 15px;
 padding: 10px;
