@@ -1,11 +1,7 @@
-.container{
+h1{
 
     font-family:'Oswald', Verdana, Arial, sans-serif;
     text-align: center;
-}
-.side-by-side{
-    width: 45%;
-    font-family:'Oswald', Verdana, Arial, sans-serif;
 }
 
 
@@ -20,18 +16,26 @@ h3{
     font-weight: 500;
 }
 
-.FavoriteMovies{
+#ThingsLearned{
+width: 45%;
+font-family:'Oswald', Verdana, Arial, sans-serif;
 font-weight: 300;
 border: 1px dashed red;
 border-radius: 15px;
 padding: 10px;
-list-style: upper-roman;
-}
 
-.ThingsLearned{
+}
+#roman{
+list-style-type: upper-roman;
+}
+#FavoriteMovies{
+width: 45%;
+font-family:'Oswald', Verdana, Arial, sans-serif;
+font-weight: 300;
 border: 1px solid red;
 border-radius: 15px;
 padding: 10px;
+
 }
 
 a{
