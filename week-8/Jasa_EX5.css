@@ -1,17 +1,22 @@
+body {
+    margin: 0;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
 header{
     background-color: #3c275a;
     color: white;
     padding: 20px;
     text-align: center;
     }
-    h1{
+    
+h1{
         font-weight: 400;
     }
 
     #navbar{
         overflow: hidden;
         background-color: #4f3674;
-        border-bottom: solid #D6A800;
+        border-bottom: 15px solid #D6A800;
  
     }
 
@@ -42,13 +47,14 @@ header{
     .card-title{
         text-align: center;
         font-size: 2em;
+		color: #4F3674;
         font-weight: 400;
     }
     .card-content{
         padding: 2px 16px;
         
     }
-    .card-content :hover{
+    .card:hover{
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     }
     footer{
