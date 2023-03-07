@@ -1,47 +1,76 @@
-<head>
-    <link href="Jasa_EX6.css" type="text/css" rel="stylesheet">
-</head>
-<header>        
-    <h1>Assignment 8.2: Build a Web Page - Part 6</h1>
-</header>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>WEB 200 Fundamentals of Web Development</title>
+		<link href="Jasa_EX6.css" type="text/css" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header>        
+			<h1>Assignment 9.2: Build a Web Page - Part 6</h1>
+		</header>
 
-<div class="card">
-    <div class="card-title">Book Entry Form</div>
-    <div class="card-content">
-        <div class="form">
-            <div class="form-field">
-                <label for="txtBookName" class="input">Book name</label>
-            </div>
-            <div class="form-field">
-                <button type="submit" class="btn btn-primary" width=100%;>Create Book</button>
-            </div>
-        </div>
-    </div>
-    <br>
-    <br>
-    <div class="card">
-        <div class="card-title">Top 5 Favorite Books</div>
-        <div class="card-content">
-            <table id="books">
-                <tr>
-                    <th>Book Id</th>
-                    <th>Book Name</th>
-                </tr>
-                    <td>100</td>
-                    <td>101</td>
-                    <td>102</td>
-                    <td>103</td>
-                    <td>104</td>
-                <tr>
-                    <td>Where the Sidewalk Ends</td>
-                    <td>The Hobbit</td>
-                    <td>The Black Stallion</td>
-                    <td>Adventures of Sherlock Holmesbooks</td>
-                    <td>The Horse Whisperer</td>
-                </tr>
-            </table>
-        </div>
-    </div>
+		<div id="navbar">
+			<a href="#">Home</a>
+			<a href="#">About</a>
+			<a href="#">Contact</a>
+		</div>
 
+	<div id="container">
 
-</div>
+		<div class="card">
+			<div class="card-title">Book Entry Form</div>
+			<div class="card-content">
+				<div class="form">
+					<div class="form-field">
+						<label for="txtBookName" class="input">Book name:</label>
+						<input type="text" id="txtBookName" class="input" name="txtBookName" />
+					</div>
+					<div class="form-field">
+						<button type="submit" class="btn btn-primary full-width">Create Book</button>
+					</div>
+				</div>
+			</div>
+		</div>
+			<br /><br />
+			<div class="card">
+				<div class="card-title">Top 5 Favorite Books</div>
+				<div class="card-content">
+					<br />
+					<table id="books">
+						<tr>
+							<th>Book Id</th>
+							<th>Book Name</th>
+						</tr>
+							<tr>
+							<td>100</td>
+							<td>Where the Sidewalk Ends</td>
+							</tr>
+							<tr>
+							<td>101</td>
+							<td>The Hobbit</td>
+							</tr>
+							<tr>
+							<td>102</td>
+							<td>The Black Stallion</td>
+							</tr>
+							<tr>
+							<td>103</td>
+							<td>Adventures of Sherlock Holmesbooks</td>
+							</tr>
+							<tr>
+							<td>104</td>
+							<td>The Horse Whisperer</td>
+							</tr>
+					</table>
+				</div>
+			</div>
+
+		</div>
+    <footer>
+        <p>
+			&#169; <script> document.write(new Date().getFullYear()) </script> - <a href="https://www.bellevue.edu/" target="_blank"> Bellevue University</a>
+		</p>
+    </footer>
+	</body>
+</html>
